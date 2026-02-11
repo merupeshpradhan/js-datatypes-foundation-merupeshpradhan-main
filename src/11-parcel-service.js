@@ -72,7 +72,7 @@ export function jsonToParcel(jsonString) {
     return null;
   }
 
-  try {
+  try { 
     return JSON.parse(jsonString);
   } catch (error) { 
     console.log(error);

@@ -64,7 +64,7 @@ export function shoutChaiOrder(order) {
   const trimmedOrder = order.trim();
   if (trimmedOrder === "") {  
     return "";
-  }
+  } 
 
   return trimmedOrder.toUpperCase();
 }

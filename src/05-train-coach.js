@@ -78,7 +78,7 @@ export function isAnyWaitlisted(passengers) {
   }
 
   return passengers.some((p) => p.status === "waitlisted");
-}
+} 
 
 export function areAllConfirmed(passengers) {
   // Your code here

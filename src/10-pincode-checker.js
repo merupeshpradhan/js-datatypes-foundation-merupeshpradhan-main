@@ -76,7 +76,7 @@ export function isValidParcelWeight(weight) {
     return false;
   }
 
-  return weight > 0; 
+  return weight > 0;  
 }
 
 export function isWholeNumber(value) {

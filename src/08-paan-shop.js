@@ -71,7 +71,7 @@ export function freezeMenu(menu) {
 
   return Object.freeze(menu);
 }
- 
+  
 export function updatePrices(menu, increase) {
   // Your code here
   if (!isValidObject(menu) || typeof increase !== "number") {

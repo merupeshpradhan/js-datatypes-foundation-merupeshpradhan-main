@@ -98,7 +98,7 @@ export function findCheapestAndCostliest(...fares) {
     (fare) => (typeof fare === "number") && !Number.isNaN(fare),
   );
 
-  if (validFares.length === 0) {
+  if (validFares.length === 0) { 
     return null;
   }
 
