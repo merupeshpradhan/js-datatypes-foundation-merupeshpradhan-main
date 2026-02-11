@@ -89,7 +89,7 @@ export function areAllConfirmed(passengers) {
   return passengers.every((p) => p.status === "confirmed");
 }
 
-export function getWaitlistedPassengers(passengers) {
+export function getWaitlistedPassengers(passengers) { 
   // Your code here
   if (!Array.isArray(passengers)) {
     return [];

@@ -68,13 +68,13 @@ export function parcelToJSON(parcel) {
 
 export function jsonToParcel(jsonString) {
   // Your code here
-  if (typeof jsonString !== "string") {
+  if (typeof jsonString !== "string") { 
     return null;
   }
 
   try {
     return JSON.parse(jsonString);
-  } catch (error) {
+  } catch (error) { 
     console.log(error);
 
     return null;

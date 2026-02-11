@@ -61,7 +61,7 @@ export function writePostcard(sender, receiver, message) {
     receiver.trim() === "" ||
     message.trim() === ""
   ) {
-    return "";
+    return ""; 
   }
 
   return `Priy ${receiver},\n\n${message}\n\nAapka/Aapki,\n${sender}`;

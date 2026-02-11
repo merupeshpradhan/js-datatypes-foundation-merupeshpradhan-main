@@ -108,8 +108,7 @@ export function findCheapestAndCostliest(...fares) {
   };
 }
 
-export function getDistanceDifference(from, to) {
-  // Your code here
+export function getDistanceDifference(from, to) { 
   const start = parseInt(from);
   const end = parseInt(to);
 

@@ -62,7 +62,7 @@ export function shoutChaiOrder(order) {
   }
 
   const trimmedOrder = order.trim();
-  if (trimmedOrder === "") {
+  if (trimmedOrder === "") {  
     return "";
   }
 

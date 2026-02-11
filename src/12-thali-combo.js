@@ -138,7 +138,7 @@ export function generateThaliReceipt(customerName, thalis) {
   ) {
     return "";
   }
-
+ 
   const customer = customerName.toUpperCase();
 
   const lineItems = thalis.map((t) => `- ${t.name} x Rs.${t.price}`).join("\n");

@@ -74,7 +74,7 @@ export function extractRangoliCenter(design, start, end) {
 
 export function splitAndJoinRangoli(colorString, oldSep, newSep) {
   // Your code here
-  if (typeof colorString !== "string") {
+  if (typeof colorString !== "string") { 
     return "";
   }
 

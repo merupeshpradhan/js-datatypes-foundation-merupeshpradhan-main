@@ -98,7 +98,7 @@ export function removeRationCard(registry, cardId) {
   if (!isValidObject(registry) || typeof cardId !== "string") {
     return false;
   }
-
+ 
   if (!registry.hasOwnProperty(cardId)) {
     return false;
   }

@@ -63,7 +63,7 @@ export function getAffordableItems(items, maxPrice) {
   if (!Array.isArray(items) || typeof maxPrice !== "number") {
     return [];
   }
-
+ 
   return items.filter((item) => item.price <= maxPrice);
 }
 
